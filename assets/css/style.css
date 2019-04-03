@@ -239,6 +239,8 @@ input[type=submit] {
     margin-left: 5%;
     
   }
+  
+    
 }
 
  @media screen and (max-width: 640px) {
@@ -269,15 +271,10 @@ nav {
     font-size: 1.2em;
     line-height: 2em;
   } 
- .work {
-  position: relative;
-  margin-bottom: 40px; 
-  cursor: pointer;
-  transition: all .8s ease;
+ .work  {
+ float: none;
+ width: 100%;
 } 
- .work img {
-  width: 100%;
-  float: none;
+ 
 }
 
-} 
